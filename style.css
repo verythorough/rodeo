@@ -1,0 +1,16 @@
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+  }
+
+.item, a {
+    color: black;
+    font-family: 'Caladea', serif;
+    font-size:45px;
+}
+
+.item {
+    max-width: 75%;
+    margin: auto;
+}
