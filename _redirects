@@ -1,1 +1,1 @@
-/28120/:number/:next /28120/:next?:number 301!
+/28120/:number/:next/* /28120/:next/:splat?:number 301!
