@@ -1,2 +1,2 @@
-/:routeone/index.* /?:splat
-/index.* /?:splat
+/:routeone/index.* /
+/index.* /
