@@ -1,2 +1,3 @@
+/:routetwo/:routeone/index.* /
 /:routeone/index.* /
 /index.* /
