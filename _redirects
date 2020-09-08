@@ -1,1 +1,1 @@
-/:place.:suffix /:place?suffix=:suffix
+/:place.* /:place?:splat
