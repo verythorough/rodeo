@@ -1,2 +1,2 @@
-# Netlify Rodeo
-A playground for mini sites, snippets and examples.
+# What Server?
+A nice, simple site telling those who ask "what server are you on?" to move on.
