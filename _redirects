@@ -1,1 +1,1 @@
-/how-to/* /support/how-to/* 200
+/support/how-to/* /how-to/:splat 200
