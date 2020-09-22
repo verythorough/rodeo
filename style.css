@@ -13,4 +13,5 @@
 .item {
     max-width: 75%;
     margin: auto;
+    word-wrap: break-word;
 }
