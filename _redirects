@@ -1,1 +1,1 @@
-/support/how-to/* /how-to/:splat 200
+https://netlifyrodeo.netlify.app/api/:org/* https://:org.example.com/:splat
