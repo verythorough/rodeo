@@ -1,1 +1,2 @@
+:url.netlify.rodeo/* netlify.rodeo/:url
 /api/:org/* https://:org.netlify.rodeo/:splat
