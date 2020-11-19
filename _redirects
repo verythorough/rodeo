@@ -1,2 +1,2 @@
-https://:url.netlify.rodeo/* https://netlify.rodeo/:url
+https://community-22983.netlify.rodeo/* https://netlify.rodeo/test/:splat
 /api/:org/* https://:org.netlify.rodeo/:splat
