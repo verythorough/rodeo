@@ -1,2 +1,2 @@
-/:demonstration.txt /:demonstration 200
+/:demonstration.txt /test_:demonstration 200
 /api/:org/* https://:org.netlify.rodeo/:splat
