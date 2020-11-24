@@ -1,1 +1,3 @@
 /api/:org/* https://:org.netlify.rodeo/:splat
+/:demonstration.php /:demonstration
+/:demo2.php /test_:demo2
