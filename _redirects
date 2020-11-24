@@ -1,2 +1,2 @@
-/:folder/:file.txt /scott?:folder?:file?
+/:folder/:file.txt/ /scott?:folder?:file
 #/*  https://netlify.rodeo 301
