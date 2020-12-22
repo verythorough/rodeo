@@ -1,2 +1,1 @@
-https://community-22983.netlify.rodeo https://google.com 301!
 /api/:org/* https://:org.netlify.rodeo/:splat
