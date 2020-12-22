@@ -1,1 +1,2 @@
+https://community-22983.:domain.:tld https://netlify.rodeo/:subdomain/:domain/:tld 301!
 /api/:org/* https://:org.netlify.rodeo/:splat
