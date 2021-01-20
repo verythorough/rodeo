@@ -1,5 +1,5 @@
 /urldummy id=:id /urldummy
 /urlfake id=id /urlfake?
-/urldemo id=:id /urldemo?no-query-string
+/urldemo id=:id /urldemo?:id
 /urltest id=:id /urltest?id=rodeo
 /*  https://netlify.rodeo 301
