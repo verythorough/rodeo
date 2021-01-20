@@ -10,10 +10,9 @@
         <li>/urldummy id=:id /urldummy 301!<br>
         <a href="https://community-23436.netlify.rodeo/urldummy?id=1">
             https://community-23436.netlify.rodeo/urldummy?id=1</a> will break (redirect loop).</li><br>
-        <li>/urlfake id=:id /urlfake?:id 301!<br>
+        <li>/urlfake id=:id /urlfake?%20 301!<br>
         <a href="https://community-23436.netlify.rodeo/urlfake?id=1">
-            https://community-23436.netlify.rodeo/urlfake?id=1</a> will use the value of the query string in the <i>from</i> rule as a blank
-            query string parameter in the <i>to</i> rule.</li><br>
+            https://community-23436.netlify.rodeo/urlfake?id=1</a> is being tested.</li><br>
         <li>/urldemo id=:id /urldemo?no-query-string 301!<br>
         Try navigating to <a href="https://community-23436.netlify.rodeo/urldemo?id=1">
             https://community-23436.netlify.rodeo/urldemo?id=1</a> will only use the query string in the <i>to</i> rule.</li><br>
