@@ -1,12 +1,23 @@
 <head>
-    <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="/favicon.ico">
     <link href="/style.css" rel="stylesheet" >
     <link href="https://fonts.googleapis.com/css2?family=Caladea&display=swap" rel="stylesheet">
     <title>Rodeo</title>
 </head>
 <div class="container">
     <div class="item">
-        Created by <a href="https://community.netlify.com/u/pie/summary">Pie</a> at 
-        <a href="https://www.netlify.com">Netlify</a> to demo wonderful features and peculiar edge cases.
+        For <a href="https://community.netlify.com/t/changes-to-redirects-with-query-string-parameters-are-coming/23436">
+            https://community.netlify.com/t/changes-to-redirects-with-query-string-parameters-are-coming/23436</a>.<br><br>
+        Redirect rule of: /urldummy id=:id /urldummy<br><br>
+        Redirect rule of: /urlfake id=id /urlfake?<br><br>
+        Redirect rule of: /urldemo id=:id /urldemo?no-query-string<br><br>
+        Redirect rule of: /urltest id=:id /urltest?id=rodeo<br><br>
+        Try navigating to <a href="https://community-23436.netlify.rodeo/urldummy?id=1">
+            https://community-23436.netlify.rodeo/urldummy?id=1</a>!<br><br>
+        Try navigating to <a href="https://community-23436.netlify.rodeo/urlfake?id=1">
+            https://community-23436.netlify.rodeo/urlfake?id=1</a>!<br><br>
+        Try navigating to <a href="https://community-23436.netlify.rodeo/urldemo?id=1">
+            https://community-23436.netlify.rodeo/urldemo?id=1</a>!<br><br>
+        Try navigating to <a href="https://community-23436.netlify.rodeo/urltest?id=1">
+            https://community-23436.netlify.rodeo/urltest?id=1</a>!<br><br>
     </div>
 </div>
