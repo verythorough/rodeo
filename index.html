@@ -7,16 +7,16 @@
     <div class="item">
         For <a href="https://community.netlify.com/t/changes-to-redirects-with-query-string-parameters-are-coming/23436">
             https://community.netlify.com/t/changes-to-redirects-with-query-string-parameters-are-coming/23436</a>.<br><br>
-        Redirect rule of: /urldummy id=:id /urldummy 301!<br>
+        <li>/urldummy id=:id /urldummy 301!</li><br>
         <a href="https://community-23436.netlify.rodeo/urldummy?id=1">
             https://community-23436.netlify.rodeo/urldummy?id=1</a> will break (redirect loop).<br><br>
-        Redirect rule of: /urlfake id=id /urlfake? 301!<br>
+        <li>/urlfake id=id /urlfake? 301!</li><br>
         <a href="https://community-23436.netlify.rodeo/urlfake?id=1">
             https://community-23436.netlify.rodeo/urlfake?id=1</a> will pass the query string through.<br><br>
-        Redirect rule of: /urldemo id=:id /urldemo?no-query-string 301!<br>
+        <li>/urldemo id=:id /urldemo?no-query-string 301!</li><br>
         Try navigating to <a href="https://community-23436.netlify.rodeo/urldemo?id=1">
-            https://community-23436.netlify.rodeo/urldemo?id=1</a> will only use the query string in the <i>to</i> rule.
-        Redirect rule of: /urltest id=:id /urldemo?no-query-string<br>
+            https://community-23436.netlify.rodeo/urldemo?id=1</a> will only use the query string in the <i>to</i> rule.<br><br>
+        <li>/urltest id=:id /urldemo?no-query-string</li><br>
         Try navigating to <a href="https://community-23436.netlify.rodeo/urltest?id=1">
             https://community-23436.netlify.rodeo/urldemo?id=1</a> will redirect without the force (!) as /urltest doesn't exist.
     </div>
