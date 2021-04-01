@@ -7,7 +7,7 @@
     <div class="item">
         First discussed at <a href="https://answers.netlify.com/t/changes-to-redirects-with-query-string-parameters-are-coming/23436">
             https://answers.netlify.com/t/changes-to-redirects-with-query-string-parameters-are-coming/23436</a>.<br><br>
-        <code>/urldummy id=:id /urldummy 301!</code><br>
+        <code>/urldummy id=:id /urldummy 301!</code><br><br>
         The above will cause <a href="https://redirect-dummy-query-string.netlify.rodeo/urldummy?id=1">
             https://redirect-dummy-query-string.netlify.rodeo/urldummy?id=1</a> to fail with a redirect loop.<br><br>
         <code>/urldemo id=:id /urldemo?no-query-string 301!</code><br><br>
