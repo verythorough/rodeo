@@ -1,2 +1,2 @@
 /assets/* https://assets.netlify.rodeo/:splat 301!
-/*  https://netlify.rodeo 301
+/*  https://assets.netlify.rodeo/404 404
