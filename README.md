@@ -1,2 +1,2 @@
-# Netlify Rodeo
-A playground for mini sites, snippets and examples.
+# Netlify Rodeo Assets
+Assets belonging to the playground for mini sites, snippets and examples.
