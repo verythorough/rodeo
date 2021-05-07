@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/origin"
+  to = "/new/origin"
+  status = 301
+  force = false
+  query = {one = ":one", two = ":two", three = ":three"}
