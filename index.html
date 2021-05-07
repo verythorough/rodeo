@@ -1,15 +1,17 @@
 <head>
-    <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="/assets/favicon.ico">
     <link href="/assets/style.css" rel="stylesheet" >
     <link href="https://fonts.googleapis.com/css2?family=Caladea&display=swap" rel="stylesheet">
     <title>Rodeo</title>
 </head>
 <div class="container">
     <div class="item">
-        Created by <a href="https://answers.netlify.com/u/pie/summary">Pie</a> at 
-        <a href="https://www.netlify.com">Netlify</a> to demo wonderful features and peculiar edge cases.
-    <br><br>
-        <li><a href="https://redirect-dummy-query-string.netlify.rodeo">Redirects & dummy query strings</a></li>
-        <br><li><a href="https://redirect-subdomain-splat.netlify.rodeo/">Using splats for subdomain redirects</a></li>
+        First discussed at <a href="https://answers.netlify.com/t/preserve-query-parameters-on-redirect/2226/66">https://answers.netlify.com/t/preserve-query-parameters-on-redirect/2226</a>.<br><br>
+        <code>
+            [[redirects]]<br>
+              from = "/origin"<br>
+              to = "/new/origin"<br>
+              status = 301<br>
+              query = {one = ":one", two = ":two", three = ":three"}</code><br><br>
+        With <a href="https://redirect-subdomain-splat.netlify.rodeo/api/redirect-dummy-query-string/demo">https://redirect-subdomain-splat.netlify.rodeo/api/redirect-dummy-query-string/demo</a> – the subdomain will change!
     </div>
 </div>
