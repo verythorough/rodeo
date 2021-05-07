@@ -11,7 +11,9 @@
             &nbsp;&nbsp;from = "/origin"<br>
             &nbsp;&nbsp;to = "/new/origin"<br>
             &nbsp;&nbsp;status = 301<br>
+            &nbsp;&nbsp;force = true<br>
             &nbsp;&nbsp;query = {one = ":one", two = ":two", three = ":three"}</code><br><br>
-        With <a href="https://redirect-subdomain-splat.netlify.rodeo/api/redirect-dummy-query-string/demo">https://redirect-subdomain-splat.netlify.rodeo/api/redirect-dummy-query-string/demo</a> – the subdomain will change!
+        <code>/origin?one=yes&three=yes&two=yes</code>, <code>/origin?one=yes&two=yes&three=yes</code>, <code>/origin?one=yes&two=&three=</code> and <code>/origin?three=yes&two=&one=</code> will all work. Regardless of the order of the parameters, as long as all three are present, we'll redirect.<br><br>
+        <code>/origin?one=yes</code> will not be redirected.
     </div>
 </div>
