@@ -13,7 +13,8 @@
             &nbsp;&nbsp;status = 301<br>
             &nbsp;&nbsp;force = true<br>
             &nbsp;&nbsp;query = {one = ":one", two = ":two", three = ":three"}</code><br><br>
-        <code>/origin?one=yes&three=yes&two=yes</code>, <code>/origin?one=yes&two=yes&three=yes</code>, <code>/origin?one=yes&two=&three=</code> and <code>/origin?three=yes&two=&one=</code> will all work. Regardless of the order of the parameters, as long as all three are present, we'll redirect.<br><br>
+        <code>/origin?one=yes&three=yes&two=yes</code>, <code>/origin?one=yes&two=yes&three=yes</code>, <code>/origin?one=yes&two=&three=</code> and <code>/origin?three=yes&two=&one=</code> will all work.<br><br>
+        Regardless of the order of the parameters, as long as all three are present, we'll redirect.<br><br>
         <code>/origin?one=yes</code> will not be redirected.
     </div>
 </div>
