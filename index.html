@@ -6,12 +6,17 @@
 </head>
 <div class="container">
     <div class="item">
-        Created by <a href="https://answers.netlify.com/u/pie/summary">Pie</a> at 
-        <a href="https://www.netlify.com">Netlify</a> to demo wonderful features and peculiar edge cases.
+        <code>
+            [build]<br>
+            &nbsp;&nbsp;command = "sed -i \"s/HEADER_PLACEHOLDER/$PROD_API_LOCATION/g\" netlify.toml"<br>
+            [[headers]]<br>
+            &nbsp;&nbsp;for = "/*"<br>
+            &nbsp;&nbsp;[headers.values]<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;demo = "HEADER_PLACEHOLDER"
+        </code>
     <br><br>
-        <li><a href="https://redirect-dummy-query-string.netlify.rodeo">Redirects & dummy query strings</a></li>
-        <br><li><a href="https://redirect-subdomain-splat.netlify.rodeo">Using splats for subdomain redirects</a></li>
-        <br><li><a href="https://redirect-multiple-query-strings.netlify.rodeo">Redirects & multiple query string parameters</a></li>
-        <br><li><a href="https://redirect-with-anchor.netlify.rodeo">A redirect rule with an anchor</a></li>
+        The above code should be contained in a <code>netlify.toml</code> file. In your site UI, you can add an environment 
+        variable – <code>PROD_API_LOCATION</code>. This will be read during the build and it'll populate a header called
+        <code>demo</code>.
     </div>
 </div>
