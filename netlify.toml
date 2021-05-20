@@ -1,0 +1,6 @@
+[build]
+  command = "sed -i 's|HEADER_PLACEHOLDER|${PROD_API_LOCATION}|g' netlify.toml"
+[[headers]]
+  for = "/*"
+  [headers.values]
+    demo = "HEADER_PLACEHOLDER"
