@@ -1,5 +1,5 @@
 [build]
-  command = "sed -i \"s/HEADER_PLACEHOLDER/$PROD_API_LOCATION/g\" netlify.toml && cat netlify.toml"
+  command = "sed -i \"s/HEADER_PLACEHOLDER/$PROD_API_LOCATION/g\" netlify.toml && cat netlify.toml && echo $PROD_API_LOCATION"
 [[headers]]
   for = "/*"
   [headers.values]
