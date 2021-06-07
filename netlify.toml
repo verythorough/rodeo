@@ -1,2 +1,2 @@
 [build]
-  command = "echo 'command here:' && sysctl vm.max_map_count && sysctl kernel.threads-max && sysctl kernel.pid_max && cat /sys/fs/cgroup/memory/memory.limit_in_bytes && /sys/fs/cgroup/memory/memory.limit_in_bytes = val && node --max_old_space_size=$val"
+  command = "echo 'command here:' && sysctl vm.max_map_count && sysctl kernel.threads-max && sysctl kernel.pid_max && file='/sys/fs/cgroup/memory/memory.limit_in_bytes' && val=($cat "$file") && echo $val && node --max_old_space_size=$val"
