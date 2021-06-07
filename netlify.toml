@@ -1,2 +1,2 @@
 [build]
-  command = "echo 'command here:' && sysctl vm.max_map_count && sysctl kernel.threads-max && sysctl kernel.pid_max && ./getsize.sh"
+  command = ""
