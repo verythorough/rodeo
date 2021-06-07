@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 file="/sys/fs/cgroup/memory/memory.limit_in_bytes"     #the file where you keep your string name
 
