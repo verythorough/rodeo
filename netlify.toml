@@ -1,2 +1,2 @@
 [build]
-  command = "echo 'command here:' && sysctl vm.max_map_count && sysctl kernel.threads-max && sysctl kernel.pid_max"
+  command = "echo 'command here:' && sysctl vm.max_map_count && sysctl kernel.threads-max && sysctl kernel.pid_max && cat /sys/fs/cgroup/memory/memory.limit_in_bytes"
