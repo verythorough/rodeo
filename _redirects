@@ -1,3 +1,1 @@
 /assets/* https://assets.netlify.rodeo/:splat 301!
-/test-proxy-domain https://runecount.com/.netlify/functions/rscs 200
-/test-proxy-sitename https://runecount.netlify.app/.netlify/functions/rscs 200
