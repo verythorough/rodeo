@@ -1,4 +1,11 @@
 [[redirects]]
+  from = "/?iframe=yes"
+  to = "/"
+  status = 200
+  force = true
+  headers = {example = "iframe-header"}
+
+[[redirects]]
   from = "/"
   to = "/"
   status = 200
