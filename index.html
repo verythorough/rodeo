@@ -8,10 +8,10 @@
     <div class="item">
         It's not possible to deliver headers to paths based on query parameters but it is possible to respond with headers on a proxied path.<br><br>
         <code>/example</code><br>
-        <code>  example: scott</code><br><br>
-        The above should be set in a _headers file.<br><br>
+        <code>&nbsp;&nbsp;example: scott</code><br><br>
+        The above should be set in a <code>_headers</code> file.<br><br>
         <code>/example / 200!</code><br><br>
-        The above should be set in a _redirects file. Thus, <code>/example</code> and <code>/</code> will serve the same content but the
+        The above should be set in a <code>_redirects</code> file. Thus, <code>/example</code> and <code>/</code> will serve the same content but the
         <code>/example</code> path will respond with the header we provided in our _headers file.
     </div>
 </div>
