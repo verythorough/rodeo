@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/?iframe=DFLyM9NFpEa81liAripf289dNc1QzR6I"
+  to = "/"
+  status = 200
+  force = true
+  headers = {example = "iframe-header"}
