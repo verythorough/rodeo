@@ -3,5 +3,5 @@
   to = "/"
   status = 200
   force = true
-  query = {iframe = "DFLyM9NFpEa81liAripf289dNc1QzR6I"}
+  query = {iframe = ":iframe"}
   headers = {example = "iframe-header"}
