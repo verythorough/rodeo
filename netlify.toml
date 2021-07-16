@@ -1,6 +1,7 @@
 [[redirects]]
-  from = "/?iframe=DFLyM9NFpEa81liAripf289dNc1QzR6I"
+  from = "/"
   to = "/"
   status = 200
   force = true
+  query = {iframe = "DFLyM9NFpEa81liAripf289dNc1QzR6I"}
   headers = {example = "iframe-header"}
