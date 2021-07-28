@@ -1,3 +1,2 @@
 /assets/* https://assets.netlify.rodeo/:splat 301!
 /test /demo#ref
-/#demo /index.html#success 301!
