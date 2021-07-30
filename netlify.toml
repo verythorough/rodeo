@@ -3,7 +3,6 @@
   to = "/404?requestedUrl=/:language/:splat"
   status = 404
   force = false
-  query = {path = ":path"} # apply this rule for /old-path?path=example
   [redirects.headers]
     ntl-redirect = "true"
     ntl-path = "/:language/:splat"
