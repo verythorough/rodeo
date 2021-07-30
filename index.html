@@ -13,6 +13,7 @@
             /:language/* /:language/invalid?path=/:language/:splat 301
         </code><br><br>
         Navigating to <code>/en/doh</code> redirects to <code>/en/invalid?path=/en/doh</code> which is configured to shadow the <code>/en/404</code> page.<br><br>
+        The order of the rules is important, in order to avoid a redirect loop.<br><br>
         This could be easily amended to shadow a generic <code>/404</code> page.
     </div>
 </div>
