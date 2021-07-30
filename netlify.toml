@@ -6,4 +6,4 @@
   query = {path = ":path"} # apply this rule for /old-path?path=example
   [redirects.headers]
     ntl-redirect = "true"
-    ntl-path = /:language/:splat
+    ntl-path = "/:language/:splat"
