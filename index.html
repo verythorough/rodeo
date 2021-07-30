@@ -7,7 +7,8 @@
 </head>
 <div class="container">
     <div class="item">
-        Adding query string parameters to a 404 requires a bit of work but it's not impossible. This site's <code>_redirects</code> file is as follows:<br><br>
+        Let's explore how to add the path of a non-existent page as a query string parameter to a 404 page. 
+        This site's <code>_redirects</code> file is as follows:<br><br>
         <code>
             /:language/invalid path=:path /:language/404 404<br>
             /:language/* /:language/invalid?path=/:language/:splat 301
