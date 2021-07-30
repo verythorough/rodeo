@@ -2,4 +2,5 @@
 /urldummy id=:id /urldummy 301!
 /urldemo id=:id /urldemo?no-query-string 301!
 /urltest id=:id /urldemo?no-query-string
-/:language/* /404.html?requestedUrl=/:language/:splat 404
+/:language/* /404.html?requestedUrl=/:language/:splat 301
+/404.html?requestedUrl=/:language/:splat /404.html?requestedUrl=/:language/:splat 404
