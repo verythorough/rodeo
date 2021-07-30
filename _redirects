@@ -1,1 +1,2 @@
 /assets/* https://assets.netlify.rodeo/:splat 301!
+/* /404.html?path=:splat 404
