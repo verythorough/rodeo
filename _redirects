@@ -1,2 +1,1 @@
 /assets/* https://assets.netlify.rodeo/:splat 301!
-/path/*.css /test/:splat
