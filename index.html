@@ -8,11 +8,11 @@
     <div class="item">
         First discussed at <a href="https://answers.netlify.com/t/changes-to-redirects-with-query-string-parameters-are-coming/23436">
             https://answers.netlify.com/t/changes-to-redirects-with-query-string-parameters-are-coming/23436</a>.<br><br>
-        <code>/urldemo id=:id /urldemo?no-query-string 301!</code><br><br>
-        The above will cause <a href="https://redirect-dummy-query-string.netlify.rodeo/urldemo?id=1">
-            https://redirect-dummy-query-string.netlify.rodeo/urldemo?id=1</a> to succeed and only use the query string in the <i>to</i> rule.<br><br>
-        <code>/urltest id=:id /urldemo?no-query-string</code><br><br>
-        The above will cause <a href="https://redirect-dummy-query-string.netlify.rodeo/urltest?id=1">
-            https://redirect-dummy-query-string.netlify.rodeo/urldemo?id=1</a> to succeed without the force (!) as /urltest doesn't exist.
+        <code>/urldemo id=:id /urldemo?redir 301!</code><br><br>
+        Navigating to <a href="https://redirect-dummy-query-string.netlify.rodeo/urldemo?id=1">
+            https://redirect-dummy-query-string.netlify.rodeo/urldemo?id=1</a> will succeed – and use the dummy query string in the <i>to</i> rule.<br><br>
+        <code>/urltest id=:id /urldemo?redir</code><br><br>
+        Navigating to <a href="https://redirect-dummy-query-string.netlify.rodeo/urltest?id=1">
+            https://redirect-dummy-query-string.netlify.rodeo/urldemo?id=1</a> will succeed – without the force (!) as /urltest doesn't exist – and use the dummy query string in the <i>to</i> rule.
     </div>
 </div>
