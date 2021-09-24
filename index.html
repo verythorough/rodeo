@@ -10,5 +10,7 @@
         With a redirect rule like <code>/loop/* /loop 200</code>, navigating to /loop will error.
         <br><br>
         However, with <code>/path/:route/* /path 200</code>, navigating to /path works seamlessly.
+        <br><br>
+        Routes which exist – such as /path/example – will be served faultlessly. Routes which don't exist – such as /path/demo – will be proxied a-ok.
     </div>
 </div>
