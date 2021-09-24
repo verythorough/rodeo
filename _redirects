@@ -1,2 +1,3 @@
 /assets/* https://assets.netlify.rodeo/:splat 301!
 /path/:route/* /path 200
+/loop/* /loop 200
