@@ -10,15 +10,10 @@
         Created by <a href="https://answers.netlify.com/u/pie/summary">Pie</a> at 
         <a href="https://www.netlify.com">Netlify</a> to demo wonderful features and peculiar edge cases.
     <br><br>
-        <li><a href="https://redirect-dummy-query-string.netlify.rodeo">Redirects & dummy query strings</a></li>
-        <br><li><a href="https://redirect-subdomain-splat.netlify.rodeo">Using splats for subdomain redirects</a></li>
-        <br><li><a href="https://redirect-multiple-query-strings.netlify.rodeo">Redirects & multiple query string parameters</a></li>
-        <br><li><a href="https://redirect-with-anchor.netlify.rodeo">A redirect rule with an anchor</a></li>
-        <br><li><a href="https://env-var-injection.netlify.rodeo">Injecting env vars in to headers/redirects</a></li>
-        <br><li><a href="https://redirect-over-two-hops.netlify.rodeo">Subsequent redirect hops</a></li>
-        <br><li><a href="https://build-plugin-cancel-build.netlify.rodeo">Cancel a build using a build plugin</a></li>
-        <br><li><a href="https://headers-on-proxied-paths.netlify.rodeo">Applying headers to proxied paths</a></li>
-        <br><li><a href="https://redirect-404-with-parameters.netlify.rodeo">Applying query string parameters to a 404</a></li>
-        <br><li><a href="https://redirect-loop-prevention.netlify.rodeo">Avoiding redirect loops by using placeholders</a></li>
+        <code>/test/* https://redirect-proxy-hop--netlifyrodeo.netlify.app/test-gb/:splat 200
+        <code>/test-gb/* /index.html 200</code><br><br>
+        With the "maximum proxy passes" account flag increased to 2, <code>/test/123</code> will (externally) proxy 
+        <code>/test-gb/123</code> which doesn't exist, thus proxying <code>/index.html</code>.<br><br>
+        Visit <a href="/test/123">/test/123</a> and see for yourself!
     </div>
 </div>
