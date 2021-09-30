@@ -1,3 +1,5 @@
 /assets/* https://assets.netlify.rodeo/:splat 301!
 /test/* https://redirect-proxy-hop--netlifyrodeo.netlify.app/test-gb/:splat 200
 /test-gb/* /index.html 200
+/demo /gb/demo.html 200!
+/* index.html 200
